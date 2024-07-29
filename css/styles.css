@@ -31,6 +31,8 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -51,6 +53,8 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -109,8 +113,7 @@ img {
   gap: 40px;
 }
 
-
-.top-menu-item .header-link-link:hover::after{
+.top-menu-item .header-link-link:hover::after {
   content: "";
   height: 4px;
   width: 100%;
@@ -121,7 +124,6 @@ img {
   left: 0;
   bottom: -1px;
 }
-
 
 .adress-links {
   line-height: 1.5;

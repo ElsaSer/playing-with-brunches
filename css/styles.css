@@ -33,6 +33,7 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .logo {
@@ -272,35 +273,31 @@ img {
 }
 
 .team-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #ffffff;
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  display: inline-block;
+  margin-right: 24px;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
-.team-list-img {
-  width: 264px;
-  height: 260px;
-  gap: 0px;
-  opacity: 0px;
-}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  margin-bottom: 72px;
-  gap: 24px;
 }
 .app-information {
-  padding: 32px 0 32px;
+  padding: 32px 0;
 }
 .team-list-name {
   font-weight: 500;

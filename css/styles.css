@@ -442,10 +442,10 @@ cursor: pointer;
 }
 
 .footer-soc-block-header {
-  color: #fff;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  margin-bottom: 16px;
+ color: #fff;
+ letter-spacing: 0.02em;
+ font-weight: 500;
+ margin-bottom: 16px;
 }
 .footer-text-block {
   margin-right: 120px;
@@ -474,4 +474,9 @@ cursor: pointer;
 .top-menu-item .link:hover::after {
   content: "";
   height: 4px;
+}
+
+.footer .container{
+  display: flex;
+  align-items: baseline;
 }

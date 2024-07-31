@@ -463,11 +463,11 @@ cursor: pointer;
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
 }
-footer .social-links {
+.footer .social-links {
   gap: 16px;
 }
-.footer .social-links .soc-link:hover,
-.footer .social-links .soc-link:focus {
+.footer-section .social-links .soc-link:hover,
+.footer-section .social-links .soc-link:focus {
   background-color: #31d0aa;
 }
 

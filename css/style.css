@@ -1,4 +1,7 @@
+.para-para{
+    align-items: center;
+    text-shadow: 12px;
+    background-color: aquamarine;
 .prezentare {
     text-align: center;
-    color: aqua;
 }
